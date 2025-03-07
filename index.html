@@ -19,6 +19,7 @@
             color: white;
             background-color: red;
             padding: 1rem;
+
         }
 
         .item {
@@ -26,7 +27,15 @@
             background-color: #6bafe3;
             padding: 1rem;
             width: 6rem;
+            border-radius: .5rem;
 
+        }
+
+        .container {
+            border: 1px solid #404447;
+            box-shadow: .3rem .3rem .2rem .01rem #404447;
+            display: flex;
+            justify-content: space-evenly;
         }
     </style>
 
@@ -42,9 +51,16 @@
         Isto é uma div.
     </div>
 
-    <div class="item">Isto é uma div</div>
-    <div class="item">Isto é uma div</div>
-    <div class="item">Isto é uma div</div>
+    <div class="container">
+        <div class="item">Isto é uma div</div>
+        <div class="item">Isto é uma div</div>
+        <div class="item">Isto é uma div</div>
+    </div>
+
+
+
+
+
 </body>
 
 </html>
